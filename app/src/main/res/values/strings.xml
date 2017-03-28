@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Crashimg</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="hint_username">Nombre de usuario</string>
+</resources>
