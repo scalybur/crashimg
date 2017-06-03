@@ -3,4 +3,10 @@
     <color name="colorPrimary">#CDDC39</color>
     <color name="colorPrimaryDark">#FBC02D</color>
     <color name="colorAccent">#EEFF41</color>
+    <color name="colorOne">#ffee2f</color>
+    <color name="colorTwo">#fff641</color>
+    <color name="colorTexts">#06160f</color>
+    <color name="editTextColorWhite">#FFFFFF</color>
+    <color name="editTextColorBlack">#262626</color>
+    <color name="background_textcard">#53292929</color>
 </resources>

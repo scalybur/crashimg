@@ -2,4 +2,25 @@
     <string name="app_name">Crashimg</string>
     <string name="title_activity_referencia">ReferenciaActivity</string>
     <string name="hint_username">Nombre de usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_send">Enviar</string>
+    <string name="button_login">Iniciar Sesión</string>
+    <string name="dont_have_account">¿No tienes una cuenta?, </string>
+    <string name="create_here">crea una aquí</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_passwordConfirm">Confirmar contraseña</string>
+    <string name="button_create_account">Únete</string>
+    <string name="toolbar_title_createaccount">Crear cuenta</string>
+    <string name="username_card">Nahuel Cabrera</string>
+    <string name="firstword_card">Hace</string>
+    <string name="timecard_card">4 días</string>
+    <string name="likenumber_cardview">10 Me Gusta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_item_menu">Buscar</string>
+    <string name="home_item_menu">Inicio</string>
+    <string name="profile_item_menu">Perfil</string>
 </resources>

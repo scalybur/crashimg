@@ -23,35 +23,95 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:background="@drawable/crashimg"
-
-                />
+                android:background="@drawable/crashimg" />
 
         </RelativeLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.4"
-            android:orientation="vertical">
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="0.4"
+         android:fillViewport="true">
 
 
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <android.support.design.widget.TextInputEditText
-                    android:id="@+id/username"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/hint_username"/>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:padding="@dimen/paddingHorizontalLogin">
 
 
-            </android.support.design.widget.TextInputLayout>
+             <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:theme="@style/EditTextWhite">
+
+                 <android.support.design.widget.TextInputEditText
+                     android:id="@+id/username"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="@string/hint_username" />
+
+
+             </android.support.design.widget.TextInputLayout>
+
+             <android.support.design.widget.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:theme="@style/EditTextWhite">
+
+                 <android.support.design.widget.TextInputEditText
+                     android:id="@+id/password"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="@string/hint_password"
+                     android:inputType="textPassword"/>
+
+
+             </android.support.design.widget.TextInputLayout>
+
+             <Button
+                 android:id="@+id/login"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/button_login"
+                 android:theme="@style/RaisedButtonDark"
+                 android:onClick="goMainApp"/>
+
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:gravity="center">
+                 <TextView
+                     android:id="@+id/dontHaveAccount"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/dont_have_account"
+                     android:textColor="@android:color/white"
+                     android:textStyle="bold"
+                     android:paddingRight="5dp"
+                     android:textSize="@dimen/textsize_dontHaveAccount"/>
+
+                 <TextView
+                     android:id="@+id/createHere"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/create_here"
+                     android:textColor="@android:color/white"
+                     android:textStyle="bold"
+                     android:textSize="@dimen/textsize_dontHaveAccount"
+                     android:layout_toRightOf="@+id/dontHaveAccount"
+                     android:onClick="goCreateAccount"/>
+
+             </RelativeLayout>
 
 
 
-        </LinearLayout>
+         </LinearLayout>
+
+
+     </ScrollView>
 
 
     </LinearLayout>
